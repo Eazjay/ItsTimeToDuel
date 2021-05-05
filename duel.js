@@ -73,3 +73,6 @@ unit1.showStats();
 
 unit1.attack(unit2);
 unit2.showStats();
+
+unit2.attack(unit1);
+unit1.showStats();
